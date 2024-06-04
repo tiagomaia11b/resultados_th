@@ -90,10 +90,18 @@ body{
     margin-bottom: 1.6rem;
 }
 
-.reesumo > div div{
+.resumo > div div{
     display: flex;
     align-items: center;
     gap: 1.2rem;
+}
+
+.resumo > div strong{
+    color: var(--dark-navy);
+}
+
+.resumo > div strong span{
+    opacity: 0.5;
 }
 
 .resumo_reacao{
@@ -101,7 +109,7 @@ body{
     color: var(--reacao-bg);
 }
 
-.reesumo_memoria{
+.resumo_memoria{
     background: var(--memoria-bg) var(--resumo-div-bg);
     color: var(--memoria-bg);
 }
@@ -115,4 +123,17 @@ body{
 .resumo_visual{
     background: var(--visual-bg) var(--resumo-div-bg);
     color: var(--visual-bg);
+}
+
+
+.resumo button{
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background: var(--dark-navy);
+    color: var(--white);
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
